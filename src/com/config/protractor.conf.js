@@ -35,7 +35,7 @@ exports.config = {
     restartBrowserBetweenTests: false,
 
     //A base URL for application under test.
-    baseUrl: env.URL,
+    baseUrl: 'https://www.facebook.com/',
 
     //The timeout in milliseconds for each script run on the browser.
     allScriptsTimeout: 1800000,
